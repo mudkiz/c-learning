@@ -34,7 +34,9 @@ switch(number){
     result = num1 / num2;
     std::cout << "result: " << result << '\n';
     break;
-
+    default:
+        std::cout "thats not a valid entry.\n";
+        break;
 
 }
 
